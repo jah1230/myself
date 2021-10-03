@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jinah's website</title>
+    <style>
+        *{font-family: sans-serif;}
+        ul {list-style-type: none;}
+        a {text-decoration: none;}
+        .mainMenu{
+            text-align: center; border-top: 2px solid #6495ED;
+            border-bottom: 2px solid #6495ED; padding: 15px 20px
+        }
+        .mainMenu >  li{
+            display: inline-block;
+            padding: 15px 20px;
+            letter-spacing: 5px;
+            position: relative;
+        }
+        .mainMenu > li:hover{
+            background-color:#6495ED;
+        }
+        .mainMenu > li:hover ul.subMenu{
+            display: inline-block;
+            width: 100%;
+        }
+        .mainMenu > li ul.subMenu{
+            display: none;
+            position: absolute;
+            top : 80px;
+            left : 0;
+        }
+        nav li > a:hover{
+            color : white;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>About Jinah Hong</h1>
+        <nav>
+            <ul class="mainMenu">
+                <li><a href=#프로필>프로필</a></li>
+                <li><a href=#나의_관심사>나의 관심사</a>
+                    <ul  class="subMenu">
+                        <li><a href="#요리">요리</a></li>
+                        <li><a href="#맛집_탐방">맛집 탐방</a></li>
+                        <li><a href="#좋아하는_음악">좋아하는 음악</a></li>
+                        <li><a href="#좋아하는_동물">좋아하는 동물</a></li>
+                    </ul>
+                </li>
+                <li><a href=#나의_각오>나의 각오</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br><br><br><br><br>
+        <section>
+            <div id="프로필"></div>
+            <h2>프로필</h2>
+            <img src="./images/mypicture.jpg" alt="mypicture" height="400" width="400">
+            <br><br>
+            <table border="1" width="400">
+                <tr>
+                    <th>정보</th>
+                    <th>내용</th>
+                </tr>
+                <tr>
+                    <td>이름</td>
+                    <td>홍진아(Jinah Hong)</td>
+                </tr>
+                <tr>
+                    <td>학교</td>
+                    <td>동아대학교</td>
+                </tr>
+                <tr>
+                    <td>학과</td>
+                    <td>경영정보학과</td>
+                </tr>
+                <tr>
+                    <td>학번</td>
+                    <td>2017541</td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td>kelly08028@naver.com</td>
+                </tr>
+            </table>
+            <br><br><br><br><br>
+            <div id="나의_관심사"></div>
+            <h2>나의 관심사</h2>
+            <div id="요리"></div>
+            <h3>요리</h3>
+            <img src="./images/tomatobruschetta.jpg" alt="tomatobruschetta" height="400" width="400">
+            <img src="./images/salmonsandwich.jpg" alt="salmonsandwich" height="400" width="400">
+            <br>
+            토마토 브루스케타 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연어 오픈샌드위치
+            <br><br>
+            <img src="./images/kimchinoodle.jpg" alt="kimchinoodle" height="400" width="400">
+            <img src="./images/rice.jpg" alt="rice" height="400" width="400">
+            <br>
+            김치 간장 비빔국수&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;토마토달걀볶음 덮밥
+            <br><br><br><br><br>
+            <div id="맛집_탐방"></div>
+            <h3>맛집 탐방</h3>
+            <img src="./images/brunch.jpg" alt="burnch" height="400" width="400">
+            <img src="./images/huoguo.jpg" alt="huoguo" height="400" width="400">
+            <br>
+            <div id=link>
+                <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EB%B0%94%EB%AA%A8%EB%85%B8%EC%8A%A4" target="_blank">바모노스</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%ED%95%98%EC%9D%B4%EB%94%94%EB%9D%BC%EC%98%A4+%EB%B6%80%EC%82%B0%EC%97%AD%EC%A0%90" target="_blank">하이디라오 부산역점</a>
+            </div>
+            <img src="./images/porkcutlet.jpg" alt="porkcutlet" height="400" width="400">
+            <img src="./images/pizzasalad.jpg" alt="pizzasalad" height="400" width="400">
+            <div id=link>
+                <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%88%98%EC%88%98%ED%95%98%EC%A7%80%EB%A7%8C+%EA%B5%89%EC%9E%A5%ED%95%B4+%EC%A0%84%ED%8F%AC%EC%A0%90" target="_blank">수수하지만 굉장해</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%96%B4%EC%BD%94%EB%84%88%EC%8A%A4%ED%86%A4" target="_blank">어코너스톤</a>
+            </div>
+            <br><br><br><br><br>
+            <div id="좋아하는_음악"></div>
+            <h3>좋아하는 음악</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RmuL-BPFi2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vnS_jn2uibs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QPUjV7epJqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><br><br><br><br><br><br>
+            <div id="좋아하는_동물"></div>
+            <h3>좋아하는 동물</h3>
+            <br>
+            <video width="500" height="500" controls src="./media/siru.MP4"></video>
+            <br><br>
+            친구의 반려 동물 시루(크레스티드 게코)
+            <br><br><br><br><br><br><br><br>
+            <div id="나의_각오"></div>
+            <h2>나의 각오</h2>
+            &nbsp;저는 선택에 대한 책임을 질 수 있는 것이 무엇보다도 중요하다고 생각합니다. 
+            <br>
+            따라서 제가 선택한 '웹프로그래밍'수업을 열심히 수강하여 시간을 헛되이 보내지 않도록 할 것입니다.
+        </section>
+        <br><br><br>
+        <footer>&copy; Jinah Hong</footer>
+    </header>
+</body>
+</html>
